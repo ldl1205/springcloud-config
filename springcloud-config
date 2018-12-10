@@ -1,0 +1,20 @@
+{
+    "name": "db",
+    "profiles": [
+        "mysql"
+    ],
+    "label": null,
+    "version": null,
+    "state": null,
+    "propertySources": [
+        {
+            "name": "https://github.com/你的gitub/learngit.git/db-mysql.properties",
+            "source": {
+                "db.driver_class_name": "com.mysql.jdbc.Driver",
+                "db.password": "xxxxx",
+                "db.url": "jdbc:mysql://127.0.0.1/xxx",
+                "db.username": "root"
+            }
+        }
+    ]
+}
